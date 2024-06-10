@@ -9,7 +9,7 @@
 - [Data Visualization](#data-visualization)
 - [Findings](#findings)
 - [References](#references)
-__________________________________________________________________________________________________________________________
+
 ### Project Objective: 
 
 To analyze the life expectancy and associated factors of 183 countries over the period from 2007 to 2022, utilizing data from the World Health Organization (WHO) and economic data from the United Nations.
