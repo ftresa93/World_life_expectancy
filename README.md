@@ -6,7 +6,7 @@
 - [Tools Used](#tools-used)
 - [Data Processing](#data-processing)
 - [Data Visualization](#data-visualization)
-- [Result](#result)
+- [Findings](#findings)
 - [References](#references)
 ### Project Objective: 
 To analyze the life expectancy and associated factors of 183 countries over the period from 2007 to 2022, utilizing data from the World Health Organization (WHO) and economic data from the United Nations.
@@ -18,11 +18,11 @@ The primary dataset used for the analysis "WorldLifeExpectancy.csv" contains inf
 
 ### Tools Used:
 - MySQL - Data Cleaning and EDA -[Download here](https://www.mysql.com/)
-- Tableau- Data Visualization
+- Tableau Public- Data Visualization
 
 ### Data Processing:
 #### Database Creation and Data Import:
-A MySQL database named "World Life Expectancy" was created to store the dataset and then later dataset was imported.
+A MySQL database named "World Life Expectancy" was created and then later dataset was imported into the database.
 #### Data Cleaning and Preparation: 
 - Removing Duplicates
 - Handling Missing and Null Values- It was identified that data for 10 countries were only available for a single year. These incomplete records were removed, resulting in a refined dataset encompassing 183 countries.
@@ -43,13 +43,13 @@ The cleaned dataset underwent exploratory data analysis in MySQL to uncover init
 Post-EDA, the cleaned dataset was exported to Tableau for advanced data visualization, facilitating a more intuitive understanding of life expectancy trends and health factors across the selected countries.
 [Tableau Dashboard](https://public.tableau.com/app/profile/feba.francis/viz/WORLDLIFEEXPECTANCYDASHBOARD/Dashboard1)
 
-### Result:
-The analysis results can be summarised as follows:
-1. Life expectancy has increased over the 15 years in both developed and developing countries.
-2. There is a positive and strong correlation between GDP and Life expectancy.
-3. With a higher schooling period there seems to be higher life expectancy.
-4. Most of the developed countries seem to have high BMI with high life expectancy. This could be due to higher quality health care provided.
-5. The average number of infant and under-five deaths has decreased over the 15 years, reflecting the global improvements in healthcare provision and accessibility.
+### Findings:
+The analysis findings can be summarised as follows:
+-  Life expectancy has increased over the 15 years in both developed and developing countries.
+-  There is a positive and strong correlation between GDP and Life expectancy.
+-  With a higher schooling period there seems to be higher life expectancy.
+-  Most of the developed countries seem to have high BMI with high life expectancy. This could be due to higher quality health care provided.
+-  The average number of infant and under-five deaths has decreased over the 15 years, reflecting the global improvements in healthcare provision and accessibility.
 
 ### References:
 1. Kaggle-[Life Expectancy](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
