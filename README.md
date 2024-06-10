@@ -1,4 +1,4 @@
-## World Life Expectancy Data Analysis
+# World Life Expectancy Data Analysis
 
 ### Table of Contents
 
