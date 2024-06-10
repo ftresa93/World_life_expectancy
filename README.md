@@ -9,7 +9,7 @@
 - [Result](#result)
 - [References](#references)
 ### Project Objective: 
-To analyze the life expectancy and associated health factors of 183 countries over the period from 2007 to 2022, utilizing data from the World Health Organization (WHO) and economic data from the United Nations.
+To analyze the life expectancy and associated factors of 183 countries over the period from 2007 to 2022, utilizing data from the World Health Organization (WHO) and economic data from the United Nations.
 
 ### Data Sources:
 The primary dataset used for the analysis "WorldLifeExpectancy.csv" contains information from sources:
@@ -22,7 +22,7 @@ The primary dataset used for the analysis "WorldLifeExpectancy.csv" contains inf
 
 ### Data Processing:
 #### Database Creation and Data Import:
-A MySQL database named "World Life Expectancy" was created to store the dataset and then later imported into the database.
+A MySQL database named "World Life Expectancy" was created to store the dataset and then later dataset was imported.
 #### Data Cleaning and Preparation: 
 - Removing Duplicates
 - Handling Missing and Null Values- It was identified that data for 10 countries were only available for a single year. These incomplete records were removed, resulting in a refined dataset encompassing 183 countries.
