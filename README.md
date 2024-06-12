@@ -49,7 +49,7 @@ The cleaned dataset underwent exploratory data analysis in MySQL to uncover init
 ### Data Visualization:
 
 Post-EDA, the cleaned dataset was exported to Tableau for advanced data visualization, facilitating a more intuitive understanding of life expectancy trends and health factors across the selected countries.
-[Tableau Dashboard](https://public.tableau.com/app/profile/feba.francis/viz/WORLDLIFEEXPECTANCYDASHBOARD/Dashboard1)
+[Tableau Dashboard](https://public.tableau.com/views/WORLDLIFEEXPECTANCYDASHBOARD/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 ### Findings:
 
